@@ -1,2 +1,4 @@
 # Hjemmeside-ting
-Under opbygning
+Welkommen
+
+[The stickman John](Stickman-John/)
