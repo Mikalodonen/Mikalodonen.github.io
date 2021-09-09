@@ -1,4 +1,4 @@
 # Hjemmeside-ting
-Welkommen
+Velkommen, DU.
 
 [The stickman John](Stickman-John/)
