@@ -3,11 +3,11 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(255);
 }
 let y = 0;
 let speed=1;
-let gravity=0.2;
+let gravity=0.5;
 
 
 function draw(){ 
@@ -17,6 +17,6 @@ function draw(){
   
   if(y>400){
   //reverse the speed
-    speed=-0.95 * speed;
+    speed=-0.75 * speed;
   }
 }
