@@ -17,7 +17,7 @@ function draw(){
   let radius = 100
   let diameter = 2 * radius
 
-  square(xPos - radius,diameter)
+  cirkel(xPos - radius,diameter)
 
   xPos += xSpeed
   yPos += ySpeed
