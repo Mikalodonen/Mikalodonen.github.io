@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(400, 500);
 }
 
 let y = 0;
@@ -8,12 +8,12 @@ let gravity=0.5;
 
 
 function draw(){ 
-  background(255);
+  background(220);
   ellipse(200,y,20,20);
   y=y+speed;
   speed=speed+gravity;
   
-  if(y>389){
+  if(y>height-9){
   //reverse the speed
     speed=-0.75 * speed;
   }
