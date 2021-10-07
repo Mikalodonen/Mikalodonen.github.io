@@ -7,4 +7,4 @@ Velkommen, DU.
 
 [Another-Ball](Another-Ball/)
 
-[Logiske-operatorer](Logiske-operatorerhh/)
+[Logiske-operatorer](Logiske-operatorer/)
