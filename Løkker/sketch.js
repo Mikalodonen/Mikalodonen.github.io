@@ -9,7 +9,7 @@ console.log("loop demo opgave 1");
 let i = 10 
 
 while(i > 0){
-  console.log("while demo" +i)
+  console.log(i)
 
   //increment
   i=i-1
