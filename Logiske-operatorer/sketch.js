@@ -3,11 +3,13 @@ function setup() {
 }  
 
 function draw() {
-background(255);  
+background(200);  
 
-  stroke(0);
-  fill(225,0,0);
+
+if(mouseX < 200 && mouseY > 200 || mouseX > 200 && mouseY < 200){
+  fill("red");
+} else {
+  fill("white")
+}
   ellipse(mouseX,mouseY,40,40);
 }
-
-
