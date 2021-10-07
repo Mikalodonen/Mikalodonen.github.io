@@ -8,3 +8,5 @@ Velkommen, DU.
 [Another-Ball](Another-Ball/)
 
 [Logiske-operatorer](Logiske-operatorer/)
+
+[Løkker](Løkker/)
