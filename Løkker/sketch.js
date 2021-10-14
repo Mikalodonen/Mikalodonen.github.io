@@ -53,5 +53,28 @@ console.log("done");
 
 //opgave 4
 
+console.log("opgave 4")
 
+//console.log("y=3*x*x+6*x+9")
+//for(let x = 0; x<=10; x++){
+//  let y=3*x*x+6*x+9
+//console.log("y="+y)
+
+console.log("y=3*x*x+6*x+9")
+
+console.log("opg a")
+for(let i = 0; i<=10; i++){
+  let x = i
+  let y=3*x*x+6*x+9
+console.log(x, y)
+}
+
+console.log("opg b")
+for(let i = 0; i<=10; i++){
+  let x = i*10
+  let y=3*x*x+6*x+9
+console.log(x, y)
+}
+
+console.log("done");
 }
