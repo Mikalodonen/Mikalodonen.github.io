@@ -7,12 +7,16 @@ function setup() {
 //tgen en linje
 
 function draw() {
-  stroke(0);
+  stroke(194, 2, 2);
   if (mouseIsPressed == true) {
-    line(mouseX, mouseY, mouseX, mouseY);
+    line(pmouseX, pmouseY, mouseX, mouseY);
   strokeWeight(10)
-  //fjern linjen når der tegnes igen
-    
-    
+
+  }
+
+  //fjern linjen igen
+  
+  if(keyIsPressed == true){
+background(255);
   }
 }
