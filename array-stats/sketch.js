@@ -2,7 +2,7 @@
 //console.log(value)
 
 let arr = []
-for (let o = 1; o <= 100; o++) {
+for (let o = 1; o < 100; o++) {
 
     let xSum = 0
     for (let i = 0; i < 6; i++) {
