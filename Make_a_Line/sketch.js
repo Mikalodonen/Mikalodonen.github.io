@@ -10,19 +10,19 @@ function setup() {
 
 function draw() {
   
-  //placer skrå streg ved background for noget sejt og fjern for fix
+  //placer doublt skrå streg ved background for noget sejt og fjern for fix
 
   background(225);
   
   if(mouseIsPressed){
-    xEnd = mouseX
-    yEnd = mouseY
+    endXs = mouseX
+    endYs = mouseY
   }
-  line(xStart, yStart, xEnd, yEnd)
+  line(startXs, startYs, endXs, endYs)
 }
 
 function mousePressed() {
-  xStart = mouseX
-  yStart = mouseY
+  startXs = mouseX
+  startYs = mouseY
 }
 
