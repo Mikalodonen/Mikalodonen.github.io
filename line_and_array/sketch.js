@@ -2,6 +2,7 @@ let startXs = []//[0, 20, 50]
 let startYs = []//[0, 10, 60]
 let endXs = []//[0, 200, 300]
 let endYs = []//[0, 150, 375]
+
 function reset() {
     startXs = []
     startYs = []
